@@ -1,65 +1,73 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-import sys
 import os
+import sys
+import hashlib
+import itertools
+import json
+
+# this path should be to your Anki application install directory
+# it allows us to import anki on the next line
+currentDirectory = os.getcwd() 
 sys.path.append('/Applications/Anki.app/Contents/Resources/lib/python2.7/site-packages.zip')
 import anki
 from anki.exporting import AnkiPackageExporter
 
-TMPDIR="/tmp"
-FBASENAME="thai"
-FONAME="/Users/botbotbot/develop/hacknight-anki/thai.apkg"
+def addCardToCollection(collection, thai, english):
+    card = collection.newNote()
+    card['th'] = thai
+    card['en'] = english
+    card.guid = hashlib.md5(english.encode('utf-8') + thai.encode('utf-8')).hexdigest()
+    collection.addNote(card)
 
-collection = anki.Collection(os.path.join(TMPDIR, 'collection.anki2'))
+def createApkgFileFromCollection(collection, filename):
+    export = AnkiPackageExporter(collection)
+    export.exportInto(filename)
 
-deck_id = collection.decks.id(FBASENAME + "_deck")
-deck = collection.decks.get(deck_id)
+def addNewDeckToCollection(collection, deckName, cardStyle):
+    deckId = collection.decks.id(deckName)
+    deck = collection.decks.get(deckId)
+    model = collection.models.new("thai_model")
+    model['tags'].append("thai_tag")
+    model['did'] = deckId
+    model['css'] = cardStyle
 
-model = collection.models.new(FBASENAME + "_model")
-model['tags'].append(FBASENAME + "_tag")
-model['did'] = deck_id
-model['css'] = """
-.card {
-  font-family: arial;
-  font-size: 20px;
-  text-align: center;
-  color: black;
-  background-color: white;
-}
-.from {
-  font-style: italic;
-}
-"""
+    collection.models.addField(model, collection.models.newField('en'))
+    collection.models.addField(model, collection.models.newField('th'))
 
-collection.models.addField(model, collection.models.newField('en'))
-collection.models.addField(model, collection.models.newField('th'))
+    tmpl = collection.models.newTemplate('th → en')
+    tmpl['qfmt'] = '<div id="thai">{{th}}</div>'
+    tmpl['afmt'] = '{{FrontSide}}<hr id="answer"><div id="english">{{en}}</div>'
+    collection.models.addTemplate(model, tmpl)
 
-tmpl = collection.models.newTemplate('th → en')
-tmpl['qfmt'] = '<div id="thai">{{th}}</div>'
-tmpl['afmt'] = '{{FrontSide}}<hr id="answer"><div id="english">{{en}}</div>'
-collection.models.addTemplate(model, tmpl)
+    tmpl = collection.models.newTemplate('en → th')
+    tmpl['qfmt'] = '<div id="english">{{en}}</div>'
+    tmpl['afmt'] = '{{FrontSide}}<hr id="answer"><div id="thai">{{th}}</div>'
+    collection.models.addTemplate(model, tmpl)
 
-tmpl = collection.models.newTemplate('en → th')
-tmpl['qfmt'] = '<div id="english">{{en}}</div>'
-tmpl['afmt'] = '{{FrontSide}}<hr id="answer"><div id="thai">{{th}}</div>'
-collection.models.addTemplate(model, tmpl)
+    model['id'] = 1487859596  # essential for upgrade detection
+    collection.models.update(model)
+    collection.models.setCurrent(model)
+    collection.models.save(model)
 
-model['id'] = 12345678  # essential for upgrade detection
-collection.models.update(model)
-collection.models.setCurrent(model)
-collection.models.save(model)
+def main(category):
 
-note = anki.notes.Note(collection, model)
-note['en'] = "chicken"
-note['th'] = u"ไก่"
-note.guid = "xxx1"
-collection.addNote(note)
+    # read in the json data for our cards
+    with open(category + ".json") as json_data:
+        cards = json.load(json_data)
+    with open("cards.css") as css_data:
+        cardStyle = css_data.read()
 
-note = collection.newNote()
-note['en'] = "egg"
-note['th'] = u"ไข่"
-note.guid = "xxx2"
-collection.addNote(note)
+    collection = anki.Collection('/tmp/collection.anki2')
+    # :: has special meaning in Anki card names: it nests decks.
+    addNewDeckToCollection(collection, category, cardStyle)
+    for card in cards:
+        addCardToCollection(collection, card['thai'], card['english'])
 
-export = AnkiPackageExporter(collection)
-export.exportInto(FONAME)
+    outputFile = currentDirectory + "/thai-%s.apkg" % category
+    print outputFile
+    createApkgFileFromCollection(collection, outputFile)
+
+if __name__ == "__main__":
+    main(sys.argv[1])
+
