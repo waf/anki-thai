@@ -26,8 +26,12 @@ def write_json_file(json_data, filename):
 
 
 def list_source(data):
-    sources = set(map(lambda x: x[u'source'], data))
+    # get only text before hypen - to group some source
+    # SEAlang verb-walk, SEAlang verb-walk => SEAlang verb
+
+    sources = set(map(lambda x: x[u'source'].split('-', 1)[0], data))
     pprint(sources)
+    print("has {0} sources".format(len(sources)))
 
 
 def spit_source(data, souce, outfile):
