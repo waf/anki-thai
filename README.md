@@ -17,6 +17,9 @@ $ ./split-json.py split SEAlang SEAlang.json
 # anki-import
 
 ```sh
-# generate cards from $source.json
+# generate cards from $source
 $ ./anki-import.py $source
+
+# example
+$ ./anki-import.py resources/cards.sealang.json
 ```

@@ -50,24 +50,39 @@ def addNewDeckToCollection(collection, deckName, cardStyle):
     collection.models.setCurrent(model)
     collection.models.save(model)
 
-def main(category):
+def distinct(cards):
+    distinct = {}
+    for card in cards:
+        distinct[card["thai"]] = card
+    return distinct.values()
+
+def main():
 
     # read in the json data for our cards
-    with open(category + ".json") as json_data:
-        cards = json.load(json_data)
-    with open("cards.css") as css_data:
-        cardStyle = css_data.read()
+    with open("resources/cards.sealang.json") as jsonData:
+        cards = json.load(jsonData)
+    with open("resources/source-map.json") as jsonData:
+        sourceMap = json.load(jsonData)
+    with open("resources/cards.css") as cssData:
+        cardStyle = cssData.read()
+    def cardGroupFunction(card):
+        prefix = card['source'].split("-")[0]
+        return sourceMap[prefix]["source"]
 
+    cardsBySource = itertools.groupby(cards, cardGroupFunction)
     collection = anki.Collection('/tmp/collection.anki2')
-    # :: has special meaning in Anki card names: it nests decks.
-    addNewDeckToCollection(collection, category, cardStyle)
-    for card in cards:
-        addCardToCollection(collection, card['thai'], card['english'])
+    for source, cards in cardsBySource:
+        if source == "SKIP":
+            continue
+        # :: has special meaning in Anki card names: it nests decks.
+        addNewDeckToCollection(collection, "Thai::" + source, cardStyle)
+        for card in distinct(cards):
+            addCardToCollection(collection, card['thai'], card['english'])
 
-    outputFile = currentDirectory + "/thai-%s.apkg" % category
+    outputFile = currentDirectory + "/dist/thai.apkg"
     print outputFile
     createApkgFileFromCollection(collection, outputFile)
 
 if __name__ == "__main__":
-    main(sys.argv[1])
+    main()
 
