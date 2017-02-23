@@ -6,7 +6,7 @@ import sys
 from pprint import pprint
 
 
-def get_json(filename="cards.sealang.json"):
+def get_json(filename="resources/cards.sealang.json"):
     with open(filename) as data_file:
         data = json.load(data_file, strict=False)
     return data
