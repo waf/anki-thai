@@ -3,7 +3,7 @@
         "rank":"1",
         "source":"AUA Reader AUA Chapter 01",
         "thai": "ดี",
-        "english":"To be good"
+        "english":"good"
     },
     {
         "rank":"1",
@@ -39,13 +39,13 @@
         "rank":"3",
         "source":"AUA Reader AUA Chapter 01",
         "thai": "อ้วน",
-        "english":"To be fat"
+        "english":"fat"
     },
     {
         "rank":"4",
         "source":"AUA Reader AUA Chapter 01",
         "thai": "ผอม",
-        "english":"To be thin"
+        "english":"thin"
     },
     {
         "rank":"2",
@@ -117,13 +117,13 @@
         "rank":"2",
         "source":"AUA Reader AUA Chapter 02",
         "thai": "สบาย",
-        "english":"To be comfortable, feel nice"
+        "english":"comfortable, feel nice"
     },
     {
         "rank":"4",
         "source":"AUA Reader AUA Chapter 02",
         "thai": "สบายดี",
-        "english":"To be well"
+        "english":"Feel well"
     },
     {
         "rank":"3",
@@ -153,7 +153,7 @@
         "rank":"2",
         "source":"AUA Reader AUA Chapter 02",
         "thai": "ไร",
-        "english":"Short form of อะไร"
+        "english":"Short form of อะไร (what)"
     },
     {
         "rank":"0",
@@ -171,37 +171,37 @@
         "rank":"1",
         "source":"AUA Reader AUA Chapter 02",
         "thai": "ใหญ่",
-        "english":"To be big"
+        "english":"big"
     },
     {
         "rank":"2",
         "source":"AUA Reader AUA Chapter 02",
         "thai": "เล็ก",
-        "english":"To be little"
+        "english":"little"
     },
     {
         "rank":"1",
         "source":"AUA Reader AUA Chapter 02",
         "thai": "สูง",
-        "english":"To be tall"
+        "english":"tall"
     },
     {
         "rank":"5",
         "source":"AUA Reader AUA Chapter 02",
         "thai": "เตี้ย",
-        "english":"To be short in height"
+        "english":"short in height"
     },
     {
         "rank":"2",
         "source":"AUA Reader AUA Chapter 02",
         "thai": "ร้อน",
-        "english":"To be hot"
+        "english":"hot"
     },
     {
         "rank":"3",
         "source":"AUA Reader AUA Chapter 02",
         "thai": "เย็น",
-        "english":"To be cold (of things), cool (of weather)"
+        "english":"cold (of things), cool (of weather)"
     },
     {
         "rank":"0",
@@ -345,19 +345,13 @@
         "rank":"2",
         "source":"AUA Reader AUA Chapter 03",
         "thai": "ยาว",
-        "english":"To be long"
+        "english":"long (in length)"
     },
     {
         "rank":"2",
         "source":"AUA Reader AUA Chapter 03",
         "thai": "สั้น",
-        "english":"To be short (in length)"
-    },
-    {
-        "rank":"1",
-        "source":"AUA Reader AUA Chapter 03",
-        "thai": "ครับ",
-        "english":"Polite particle, confirmative"
+        "english":"short (in length)"
     },
     {
         "rank":"1",
@@ -507,7 +501,7 @@
         "rank":"1",
         "source":"AUA Reader AUA Chapter 04",
         "thai": "ตรง",
-        "english":"To be straight"
+        "english":"straight"
     },
     {
         "rank":"1000",
@@ -657,7 +651,7 @@
         "rank":"1",
         "source":"AUA Reader AUA Chapter 06",
         "thai": "อะไร",
-        "english":"What? Something, anything"
+        "english":"What?, something, anything"
     },
     {
         "rank":"1",
@@ -939,7 +933,7 @@
         "rank":"3",
         "source":"AUA Reader AUA Chapter 08",
         "thai": "แห้ง",
-        "english":"To be dry"
+        "english":"dry"
     },
     {
         "rank":"5",
@@ -963,13 +957,13 @@
         "rank":"3",
         "source":"AUA Reader AUA Chapter 08",
         "thai": "หวาน",
-        "english":"To be sweet"
+        "english":"sweet"
     },
     {
         "rank":"6",
         "source":"AUA Reader AUA Chapter 08",
         "thai": "ง่วงนอน",
-        "english":"To be sleepy"
+        "english":"sleepy"
     },
     {
         "rank":"2",
@@ -1131,7 +1125,7 @@
         "rank":"2",
         "source":"AUA Reader AUA Chapter 11",
         "thai": "ใกล้",
-        "english":"To be near"
+        "english":"near"
     },
     {
         "rank":"1",
@@ -1143,7 +1137,7 @@
         "rank":"1",
         "source":"AUA Reader AUA Chapter 11",
         "thai": "ใหม่",
-        "english":"To be new, anew"
+        "english":"new, anew"
     },
     {
         "rank":"1",
@@ -1461,7 +1455,7 @@
         "rank":"3",
         "source":"AUA Reader AUA Chapter 14",
         "thai": "ช้า",
-        "english":"To be slow"
+        "english":"slow"
     },
     {
         "rank":"2",
@@ -1635,7 +1629,7 @@
         "rank":"3",
         "source":"AUA Reader AUA Chapter 15",
         "thai": "เก่ง",
-        "english":"To be skillful or good at something"
+        "english":"skillful or good at something"
     },
     {
         "rank":"0",
@@ -1707,7 +1701,7 @@
         "rank":"1",
         "source":"AUA Reader AUA Chapter 16",
         "thai": "ถูก",
-        "english":"To be correct"
+        "english":"correct"
     },
     {
         "rank":"2",
@@ -1947,7 +1941,7 @@
         "rank":"4",
         "source":"AUA Reader AUA Chapter 18",
         "thai": "มืด",
-        "english":"To be dark"
+        "english":"dark"
     },
     {
         "rank":"1",
@@ -2121,13 +2115,13 @@
         "rank":"7",
         "source":"AUA Reader AUA Chapter 21",
         "thai": "หิวข้าว",
-        "english":"To be hungry"
+        "english":"hungry"
     },
     {
         "rank":"8",
         "source":"AUA Reader AUA Chapter 21",
         "thai": "หิวน้ำ",
-        "english":"To be thirsty"
+        "english":"thirsty"
     },
     {
         "rank":"4",
@@ -2157,7 +2151,7 @@
         "rank":"2",
         "source":"AUA Reader AUA Chapter 21",
         "thai": "เร็ว",
-        "english":"To be fast"
+        "english":"fast"
     },
     {
         "rank":"3",
@@ -2175,7 +2169,7 @@
         "rank":"2",
         "source":"AUA Reader AUA Chapter 21",
         "thai": "ว่าง",
-        "english":"To be unoccupied, free"
+        "english":"unoccupied, free"
     },
     {
         "rank":"1",
@@ -2451,7 +2445,7 @@
         "rank":"3",
         "source":"AUA Reader AUA Chapter 23",
         "thai": "แข็ง",
-        "english":"To be hard (not soft)"
+        "english":"hard (not soft)"
     },
     {
         "rank":"5",
@@ -2661,13 +2655,13 @@
         "rank":"5",
         "source":"AUA Reader AUA Chapter 24",
         "thai": "จืด",
-        "english":"To be tasteless"
+        "english":"tasteless, bland"
     },
     {
         "rank":"5",
         "source":"AUA Reader AUA Chapter 24",
         "thai": "เผ็ด",
-        "english":"To be hot (peppery)"
+        "english":"hot (spicy)"
     },
     {
         "rank":"2",
@@ -2751,7 +2745,7 @@
         "rank":"2",
         "source":"AUA Reader AUA Chapter 26",
         "thai": "นาน",
-        "english":"To be long in time"
+        "english":"long (in time)"
     },
     {
         "rank":"1",
@@ -2811,7 +2805,7 @@
         "rank":"2",
         "source":"AUA Reader AUA Chapter 26",
         "thai": "เสีย",
-        "english":"To be spoiled, out of order, to spend"
+        "english":"spoiled, out of order, to spend"
     },
     {
         "rank":"4",
@@ -3117,7 +3111,7 @@
         "rank":"1",
         "source":"AUA Reader AUA Chapter 28",
         "thai": "ถูก",
-        "english":"To be cheap"
+        "english":"cheap"
     },
     {
         "rank":"3",
@@ -3177,7 +3171,7 @@
         "rank":"2",
         "source":"AUA Reader AUA Chapter 28",
         "thai": "เหมาะสม",
-        "english":"To be appropriate"
+        "english":"appropriate"
     },
     {
         "rank":"2",
@@ -3213,7 +3207,7 @@
         "rank":"2",
         "source":"AUA Reader AUA Chapter 28",
         "thai": "ไกล",
-        "english":"To be far"
+        "english":"far"
     },
     {
         "rank":"2",
@@ -3249,7 +3243,7 @@
         "rank":"2",
         "source":"AUA Reader AUA Chapter 28",
         "thai": "หนัก",
-        "english":"To be heavy"
+        "english":"heavy"
     },
     {
         "rank":"3",
@@ -3369,7 +3363,7 @@
         "rank":"9",
         "source":"AUA Reader AUA Chapter 29",
         "thai": "เหนียม",
-        "english":"To be shy"
+        "english":"shy"
     },
     {
         "rank":"4",
@@ -3519,7 +3513,7 @@
         "rank":"4",
         "source":"AUA Reader AUA Chapter 31",
         "thai": "ขี้เกียจ",
-        "english":"To be lazy"
+        "english":"lazy"
     },
     {
         "rank":"6",
@@ -3567,7 +3561,7 @@
         "rank":"3",
         "source":"AUA Reader AUA Chapter 32",
         "thai": "กำลังจะ",
-        "english":"To be about to, on the point of"
+        "english":"about to, on the point of"
     },
     {
         "rank":"1",
@@ -3579,7 +3573,7 @@
         "rank":"2",
         "source":"AUA Reader AUA Chapter 32",
         "thai": "หมด",
-        "english":"To be all gone"
+        "english":"all gone"
     },
     {
         "rank":"2",
@@ -3645,7 +3639,7 @@
         "rank":"1",
         "source":"AUA Reader AUA Chapter 33",
         "thai": "บาง",
-        "english":"To be thin"
+        "english":"thin"
     },
     {
         "rank":"3",
@@ -3669,7 +3663,7 @@
         "rank":"3",
         "source":"AUA Reader AUA Chapter 33",
         "thai": "หนา",
-        "english":"To be thick"
+        "english":"thick"
     },
     {
         "rank":"1",
@@ -3801,7 +3795,7 @@
         "rank":"3",
         "source":"AUA Reader AUA Chapter 34",
         "thai": "ชัด",
-        "english":"To be plain, clear, distinct"
+        "english":"plain, clear, distinct"
     },
     {
         "rank":"4",
@@ -3903,13 +3897,13 @@
         "rank":"3",
         "source":"AUA Reader AUA Chapter 34",
         "thai": "เหนื่อย",
-        "english":"To be tired, fatigued"
+        "english":"tired, fatigued"
     },
     {
         "rank":"3",
         "source":"AUA Reader AUA Chapter 34",
         "thai": "เงียบ",
-        "english":"To be quiet"
+        "english":"quiet"
     },
     {
         "rank":"2",
@@ -3987,7 +3981,7 @@
         "rank":"7",
         "source":"AUA Reader AUA Chapter 36",
         "thai": "ขี้เหนียว",
-        "english":"To be stingy"
+        "english":"stingy"
     },
     {
         "rank":"7",
@@ -4155,7 +4149,7 @@
         "rank":"7",
         "source":"AUA Reader AUA Chapter 37",
         "thai": "ถือตัว",
-        "english":"To be haughty"
+        "english":"haughty"
     },
     {
         "rank":"4",
@@ -4311,7 +4305,7 @@
         "rank":"2",
         "source":"AUA Reader AUA Chapter 38",
         "thai": "เก่า",
-        "english":"To be old (not new)"
+        "english":"old (not new)"
     },
     {
         "rank":"3",
@@ -4407,7 +4401,7 @@
         "rank":"2",
         "source":"AUA Reader AUA Chapter 40",
         "thai": "แก่",
-        "english":"To be old (opposite of young, not the opposite of new)"
+        "english":"old (opposite of young, not the opposite of new)"
     },
     {
         "rank":"3",
@@ -4437,7 +4431,7 @@
         "rank":"3",
         "source":"AUA Reader AUA Chapter 40",
         "thai": "อ่อน",
-        "english":"To be soft, tender, young, weak"
+        "english":"soft, tender, young, weak"
     },
     {
         "rank":"1000",
@@ -4539,7 +4533,7 @@
         "rank":"3",
         "source":"AUA Reader AUA Chapter 41",
         "thai": "กว้าง",
-        "english":"To be wide, broad"
+        "english":"wide, broad"
     },
     {
         "rank":"4",
@@ -4668,36 +4662,6 @@
         "english":"Democracy Monument"
     },
     {
-        "rank":"1000",
-        "source":"AUA Reader AUA Chapter 42",
-        "thai": "บางลำพู",
-        "english":"An area in Bangkok"
-    },
-    {
-        "rank":"1000",
-        "source":"AUA Reader AUA Chapter 42",
-        "thai": "หลังสวน",
-        "english":"A Soi between Wireless and Rajdamri Roads"
-    },
-    {
-        "rank":"1000",
-        "source":"AUA Reader AUA Chapter 42",
-        "thai": "ร่วมฤดี",
-        "english":"A Soi behind Wireless Road"
-    },
-    {
-        "rank":"1000",
-        "source":"AUA Reader AUA Chapter 42",
-        "thai": "สะพานควาย",
-        "english":"Saphan Khwai (an area in Bangkok)"
-    },
-    {
-        "rank":"1000",
-        "source":"AUA Reader AUA Chapter 42",
-        "thai": "ศรีอยุธยา",
-        "english":"Si Ayuthaya (a road in Bangkok)"
-    },
-    {
         "rank":"1",
         "source":"AUA Reader AUA Chapter 42",
         "thai": "อื่น",
@@ -4755,7 +4719,7 @@
         "rank":"2",
         "source":"AUA Reader AUA Chapter 42",
         "thai": "ยอม",
-        "english":"To be willing"
+        "english":"To be willing, accede"
     },
     {
         "rank":"4",
@@ -4875,7 +4839,7 @@
         "rank":"1",
         "source":"AUA Reader AUA Chapter 43",
         "thai": "จริง",
-        "english":"To be true"
+        "english":"true"
     },
     {
         "rank":"5",
@@ -4887,7 +4851,7 @@
         "rank":"2",
         "source":"AUA Reader AUA Chapter 43",
         "thai": "ขาด",
-        "english":"To be torn, broken, lacking"
+        "english":"torn, broken, lacking"
     },
     {
         "rank":"4",
@@ -4959,7 +4923,7 @@
         "rank":"1",
         "source":"AUA Reader AUA Chapter 43",
         "thai": "ติด",
-        "english":"To be attached to"
+        "english":"attached to"
     },
     {
         "rank":"3",
@@ -5433,13 +5397,13 @@
         "rank":"2",
         "source":"AUA Reader AUA Chapter 46",
         "thai": "ปลอดภัย",
-        "english":"To be safe"
+        "english":"safe"
     },
     {
         "rank":"2",
         "source":"AUA Reader AUA Chapter 46",
         "thai": "ระวัง",
-        "english":"To be careful"
+        "english":"careful, beware"
     },
     {
         "rank":"1",
@@ -5469,7 +5433,7 @@
         "rank":"2",
         "source":"AUA Reader AUA Chapter 46",
         "thai": "ง่าย",
-        "english":"To be easy"
+        "english":"easy"
     },
     {
         "rank":"3",
@@ -5517,7 +5481,7 @@
         "rank":"2",
         "source":"AUA Reader AUA Chapter 46",
         "thai": "สวย",
-        "english":"To be pretty"
+        "english":"pretty"
     },
     {
         "rank":"3",
@@ -5589,7 +5553,7 @@
         "rank":"1",
         "source":"AUA Reader AUA Chapter 47",
         "thai": "น้อย",
-        "english":"To be small in number or amount"
+        "english":"small in number or amount"
     },
     {
         "rank":"1",
@@ -5607,7 +5571,7 @@
         "rank":"1",
         "source":"AUA Reader AUA Chapter 47",
         "thai": "ทั่ว",
-        "english":"To be all over, throughout"
+        "english":"all over, throughout"
     },
     {
         "rank":"3",
@@ -5919,7 +5883,7 @@
         "rank":"1",
         "source":"AUA Reader AUA Chapter 49",
         "thai": "แรก",
-        "english":"To be first"
+        "english":"first"
     },
     {
         "rank":"2",
@@ -5961,7 +5925,7 @@
         "rank":"4",
         "source":"AUA Reader AUA Chapter 49",
         "thai": "สว่าง",
-        "english":"To be light, bright"
+        "english":"light, bright"
     },
     {
         "rank":"3",
@@ -6009,7 +5973,7 @@
         "rank":"2",
         "source":"AUA Reader AUA Chapter 50",
         "thai": "ด่วน",
-        "english":"To be urgent, express"
+        "english":"urgent, express"
     },
     {
         "rank":"5",
@@ -6207,7 +6171,7 @@
         "rank":"2",
         "source":"AUA Reader AUA Chapter 51",
         "thai": "ทัน",
-        "english":"To be on time"
+        "english":"on time"
     },
     {
         "rank":"3",
@@ -6255,13 +6219,13 @@
         "rank":"3",
         "source":"AUA Reader AUA Chapter 51",
         "thai": "ขำ",
-        "english":"To be funny"
+        "english":"To be funny, laugh"
     },
     {
         "rank":"4",
         "source":"AUA Reader AUA Chapter 51",
         "thai": "โกรธ",
-        "english":"To be mad at someone"
+        "english":"mad at someone"
     },
     {
         "rank":"5",
@@ -6363,7 +6327,7 @@
         "rank":"2",
         "source":"AUA Reader AUA Chapter 52",
         "thai": "จำเป็น",
-        "english":"To be necessary"
+        "english":"necessary"
     },
     {
         "rank":"3",
@@ -6525,7 +6489,7 @@
         "rank":"1",
         "source":"AUA Reader AUA Chapter 53",
         "thai": "กรุณา",
-        "english":"To be kind, merciful. 'Please.'"
+        "english":"kind, merciful. 'Please.'"
     },
     {
         "rank":"4",
@@ -6837,7 +6801,7 @@
         "rank":"3",
         "source":"AUA Reader AUA Chapter 55",
         "thai": "พอใจ",
-        "english":"To be satisfied"
+        "english":"satisfied"
     },
     {
         "rank":"1",
@@ -7161,7 +7125,7 @@
         "rank":"3",
         "source":"AUA Reader AUA Chapter 58C",
         "thai": "เรียบร้อย",
-        "english":"To be in good condition, all set"
+        "english":"in good condition, all set"
     },
     {
         "rank":"2",
@@ -7173,7 +7137,7 @@
         "rank":"2",
         "source":"AUA Reader AUA Chapter 58C",
         "thai": "เต็ม",
-        "english":"To be full"
+        "english":"full"
     },
     {
         "rank":"3",
@@ -7521,7 +7485,7 @@
         "rank":"2",
         "source":"AUA Reader AUA Chapter 59",
         "thai": "เหลือ",
-        "english":"To be left over, remaining"
+        "english":"left over, remaining"
     },
     {
         "rank":"1000",
@@ -7539,7 +7503,7 @@
         "rank":"1",
         "source":"AUA Reader AUA Chapter 59",
         "thai": "สำคัญ",
-        "english":"To be important"
+        "english":"important"
     },
     {
         "rank":"3",
@@ -7671,7 +7635,7 @@
         "rank":"1",
         "source":"AUA Reader AUA Chapter 60",
         "thai": "ประจำ",
-        "english":"To be regularly attached to"
+        "english":"regular, normal"
     },
     {
         "rank":"2",
@@ -7695,7 +7659,7 @@
         "rank":"2",
         "source":"AUA Reader AUA Chapter 60",
         "thai": "สด",
-        "english":"To be fresh"
+        "english":"fresh"
     },
     {
         "rank":"7",
@@ -7737,7 +7701,7 @@
         "rank":"2",
         "source":"AUA Reader AUA Chapter 60",
         "thai": "ยาก",
-        "english":"To be difficult"
+        "english":"difficult"
     },
     {
         "rank":"1",
